@@ -1,0 +1,396 @@
+/* Add padding to body for fixed footer */
+body { 
+  padding-bottom: 70px; 
+}
+
+/* .container {
+  display: none;
+} */
+
+/* Background colours/images for all pages. */
+.home {
+  background-color: #f9f9f9;
+  /* Animate background colours to change between different variants of colours */
+  animation: background-col 5s infinite;
+}
+@keyframes background-col {
+  50% {background-color: #b0abab;}
+}
+
+/* Menu */
+nav .menu-a {
+  /* At least 3 font sizes */
+  font-size: 24px;
+  color: red;
+  /* At least 3 font styles with different colouring effects. */
+  font-style: oblique;
+
+}
+/* Footer  */
+footer {
+  background: red;
+  color: white;
+  justify-content: center !important;
+  /* At least 3 font styles with different colouring effects. */
+  font-style: italic;
+}
+
+/* Home Page */
+/* Carousel */
+/* Apply a colour filter to at least 2 images. */
+/* Padding for all images and buttons. */
+/* Borders for all images and tables. */
+.carousel-inner img {
+  filter: contrast(200%);
+  border: 1px solid #b3aeae;
+  padding:10px;
+}
+
+/* Our Range Section */
+/* At least 2 blocks (i.e text with a background). */
+.shop-container {
+  margin: 0px auto 50px auto;
+  display: block;
+  text-align: center;
+}
+
+.shop-featured {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(193, 153, 153);
+  /* Animate background colours to change between different variants of colours */
+  animation: background-featured 5s infinite;
+  padding: 50px 0;
+}
+@keyframes background-featured {
+  50% {background-color: rgb(174, 98, 98);}
+}
+
+.shop-featured .module1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/groceries.jpeg) no-repeat center center/cover;
+}
+.shop-featured .module2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/household.jpeg) no-repeat center center/cover;
+}
+.shop-featured .module3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/consumables.png) no-repeat center center/cover;
+}
+.shop-featured .shop-item {
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+  margin: 0;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  /* Padding for all images and buttons. */
+  /* Borders for all images and tables. */
+  border: 1px solid #ccc;
+  padding:5px;
+}
+
+/* At least 2 floating boxes. */
+.shop-featured .shop-item::after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  background: rgb(43, 42, 42);
+  width: 90%;
+  height:4px;
+  left:3%;
+  border-radius:50%;
+  filter: blur(3px);
+}
+
+.shop-featured .shop-item h2 {
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.6rem;
+  transform: translate(-50%, -50%);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0 10px 0;
+  letter-spacing: 1px;
+}
+
+/* Testimonail Section */
+.testimonial {
+  background: #fff;
+  padding: 20px 0;
+}
+/* Center all content, with the exception of multiple row items being equally
+padded around the centre. */
+.quotes {
+  width: 60%;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+.bubble blockquote {
+  margin: 10px 10px 0;
+  background: #f7f7f7;
+  padding: 60px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25em;
+  color: #666262;
+}
+.bubble blockquote:before,
+.bubble blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  padding: 10px;
+  line-height: 1;
+  color: var(--secondary-color);
+}
+.bubble blockquote:before {
+  top: 0;
+  left: 10px;
+}
+.bubble blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+.bubble div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f7f7f7;
+  margin: 0 0 0 60px;
+  margin-bottom: 10px;
+}
+.bubble cite {
+  padding-left: 20px;
+  /* At least 3 font sizes */
+  font-size: 1.25em;
+  color: #666262;
+  font-weight: 500;
+}
+
+/* Login Form  */
+/* Center all content, with the exception of multiple row items being equally
+padded around the centre. */
+.login {
+  margin: 50px auto;
+  display: block;
+  padding: 50px;
+  border: 1px solid #f7f7f7;
+  width: 50%;
+}
+
+/* Padding for all images and buttons. */
+.login button {
+  padding:5px 20px;
+}
+
+/* About Page */
+.about {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  /* Background colours/images for all pages. */
+  background-color: rgb(234, 202, 176);
+}
+.about ul {
+  list-style-type: square;
+  background-color: rgb(187, 104, 104);
+  padding: 20px;
+  /* Animate background colours to change between different variants of colours */
+  animation: about 5s infinite;
+}
+@keyframes about {
+  50% {background-color: rgb(121, 60, 60);}
+}
+.about ul li {
+    background: #ffddcc;
+    color: black;
+    margin: 5px;
+}
+
+.about p {
+  /* At least 3 font sizes */
+  font-size: 1.2rem;
+  /* At least 3 font styles with different colouring effects. */
+  font-style: normal;
+}
+
+/* At least 3 font styles with different colouring effects. */
+.about a {
+  font-style: italic;
+  color: red;
+}
+
+/* Products Page */
+#products {
+  border-top: 1px solid #ddd;
+  background-color: aliceblue;
+}
+#products a {
+  text-decoration: none;
+  color: black;
+}
+/* Apply a colour filter to at least 2 images. */
+/* Padding for all images and buttons. */
+/* Borders for all images and tables. */
+#products img {
+  filter: brightness(110%);
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+/* Animate item images to expand when hovered over */
+#products img:hover {
+  transform: scale(1.05);
+}
+
+/* Shipping Page */
+.shipping {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  /* Background colours/images for all pages. */
+  background-color: #f7f7f7;
+}
+.shipping-choice {
+  margin: 50px 0;
+}
+/* Padding for all images and buttons. */
+.shipping button {
+  padding: 5px 20px;
+}
+/* Borders for all images and tables. */
+/* All tables must have customised formatting (colours, layout, etc). */
+.shipping table, th, td {
+  border: 1px solid black;
+}
+.shipping tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.shipping th {
+  background-color: red;
+  color: white;
+}
+.shipping td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.product-catalog {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.cart-icon {
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#ptest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+#empty-cart {
+  margin: 50px 100px;
+  padding: 100px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+#cart-page {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#cart-page h4 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+#cart-page table {
+  text-align: center;
+}
+
+#cart-page table img {
+  width: 50px;
+}
+
+#cart-page td {
+  width: 150px;
+}
+
+#cart-page #totals {
+  text-align: justify;
+}
+
+#cart-page .coupon {
+  margin-bottom: 30px;
+}
+#cart-page #couponMsg1 {
+  background: rgb(100, 219, 100);
+  padding: 10px;
+  margin: 20px;
+  border-radius:  5px;
+  display: none;
+}
+#cart-page #couponMsg2 {
+  background: rgb(217, 103, 103);
+  padding: 10px;
+  margin: 20px;
+  border-radius:  5px;
+  display: none;
+}
+
+#cart-page .delMethod {
+  margin-bottom: 30px;
+}
+
+#cart-page #totals {
+  margin-top: 30px;
+}
+
+#additionalDel {
+  display: none;
+}
+
+#coupon {
+  color: green;
+}
+
+#success {
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  height: 200px;
+  margin: 150px auto 0 auto;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Include jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav class="nav justify-content-center mt-4">
+    <!-- Create a homepage which acts as the landing page for your store. -->
+    <a class="nav-link active menu-a" aria-current="page" href="index.html">Home</a>
+    <!-- Create at least 2 other pages (this could include pages such as “about us”, “meet the
+    team”, “shipping details”, etc). -->
+    <a class="nav-link menu-a" href="views/about.html">About Us</a>
+    <!-- Additionally, your site must have a catalogue page which lists the items which are
+    for sale. -->
+    <a class="nav-link menu-a" href="views/products.html"> All Products</a>
+    <!-- Create at least 2 other pages (this could include pages such as “about us”, “meet the
+    team”, “shipping details”, etc). -->
+    <a class="nav-link menu-a" href="views/shipping.html">Shipping Details</a>
+    <a class="nav-link menu-a" href="views/cart.html"><i class="fa fa-shopping-cart"></i> Cart</a>
+  </nav>
+<!-- Create a homepage which acts as the landing page for your store. -->
+<div class="home">
+<!-- Landing Page Slider Section -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="./assets/images/slide1.png" class="d-block w-100" alt="ECommerce website">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./assets/images/slide2.png" class="d-block w-100" alt="Shop our Range">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Login Section -->
+<!-- At least one submit button form -->
+<div class="login container">
+  <h4 class = "mb-4">Login to complete purchase online</h4>
+<form>
+  <div class="row g-3 align-items-center mb-3">
+    <div class="col-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+    </div>
+  <div class="col-auto">
+    <input type="email" class="form-control" id="exampleInputEmail1">
+  </div>
+</div>
+  <div class="row g-3 align-items-center mb-3">
+    <div class="col-3">
+      <label for="inputPassword6" class="col-form-label">Password</label>
+    </div>
+    <div class="col-auto">
+      <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+    </div>
+    <div class="col-auto">
+      <span id="passwordHelpInline" class="form-text">
+        Must be 8-20 characters long.
+      </span>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<!-- Our Range Section -->
+<!-- At least 2 blocks (i.e text with a background). -->
+<!-- At least 2 floating boxes. -->
+  <div class="shop-container">
+    <h2>Shop Our Range</h2>
+    <div class="shop-featured">
+      <div class="shop-item module1">
+        <h2>Groceries</h2>
+      </div>
+      <div class="shop-item module2">
+        <h2>Household</h2>
+      </div>
+      <div class="shop-item module3">
+        <h2>Consumables</h2>
+      </div>
+    </div>
+  </div>
+<!-- Testimonial Section -->
+<!-- At least one quote/testimonial -->
+<div class="testimonial">
+  <div class="quotes">
+  <div class="bubble">
+    <blockquote>I am so so impressed with your product range. The ordering process and delivery was very efficent as well. Thank you.</blockquote>
+    <div></div>
+    <cite>John Smith</cite>
+  </div>
+  </div>
+</div>
+</div>
+<footer class = "navbar fixed-bottom">Copyright &copy; 2022 eCommerce Website</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- Script File -->
+<script src="./assets/js/script.js"></script>
+<!-- Allow for discount codes -->
+<script>
+  $(document).ready(function() {
+    alert('Welcome to the Online Store! Take 10% off your 1st purchase by using the discount code javascript on checkout.')
+  });
+</script>
+</body> 
+</html>
