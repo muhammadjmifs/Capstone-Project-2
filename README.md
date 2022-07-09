@@ -4,10 +4,11 @@
 cart and checked out.
 
 - [Table of Contents](#capstone-project-2)
-  * [Description](#the-purpose-of-this-project-is-to-provide-a-fully-functional-ecommerce-store-which-allows-products-to-be-added-to)
+  * [The purpose of this project is to provide a fully functional ecommerce store which allows products to be added to](#the-purpose-of-this-project-is-to-provide-a-fully-functional-ecommerce-store-which-allows-products-to-be-added-to)
   * [*Installation:*](#-installation--)
   * [*How to use:*](#-how-to-use--)
   * [Credits:](#credits-)
+
 
 ###### *Installation:*
 To install this ecommerce store you can download al the files. These files then need to be placed in the public_html
