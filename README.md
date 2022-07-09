@@ -4,11 +4,10 @@
 
 - [Table of Contents](#capstone-project-2)
   * [Description](#the-purpose-of-this-project-is-to-provide-a-fully-functional-ecommerce-store-which-allows-products-to-be-added-to-cart-and-checked-out)
-  * [Installation](#To install this ecommerce store you can download al the files. These files then need to be placed in the public_html
-folder on your server. Once you go to the domain the ecommerce store will now be visible.)
+  * [Installation](#to-install-this-ecommerc-stor-you-can-download-all-the-files-these-files-then-need-to-be-placed-in-the-public_html-folder-on-your-server-once-you-go-to-the-domain-the-ecommerce-store-will-now-be-visible)
 
 *Installation:*
-To install this ecommerce store you can download al the files. Thee files then need to be placed in the public_html
+To install this ecommerce store you can download all the files. These files then need to be placed in the public_html
 folder on your server. Once you go to the domain the ecommerce store will now be visible.
 
 *How to use:*
