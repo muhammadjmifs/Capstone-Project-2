@@ -1,10 +1,9 @@
 # Capstone Project 2
 
-## The purpose of this project is to provide a fully functional ecommerce store which allows products to be added to
-cart and checked out.
+## The purpose of this project is to provide a fully functional ecommerce store which allows products to be added to cart and checked out.
 
-- [Capstone Project 2](#capstone-project-2)
-  * [The purpose of this project is to provide a fully functional ecommerce store which allows products to be added to cart and checked out.](#the-purpose-of-this-project-is-to-provide-a-fully-functional-ecommerce-store-which-allows-products-to-be-added-to-cart-and-checked-out)
+- [Table of Contents](#capstone-project-2)
+  * [Description](#the-purpose-of-this-project-is-to-provide-a-fully-functional-ecommerce-store-which-allows-products-to-be-added-to-cart-and-checked-out)
 
 *Installation:*
 To install this ecommerce store you can download al the files. Thee files then need to be placed in the public_html
